@@ -1,0 +1,384 @@
+.contenedor-menu {
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #14d9c4;
+  padding: 0px;
+  margin: 0px;
+}
+.item-titulo {
+  flex: 0 1 100%;
+  text-align: center;
+  height: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 60px;
+  background-color: #1b9688;
+  margin: 0px;
+}
+.contenedor-lista {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px;
+  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+header nav {
+  width: 100%;
+}
+.item-cuadro {
+  height: 45px;
+  line-height: 45px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.contenedor-menu a {
+  text-decoration: none;
+  color: white;
+}
+.contenedor-slogan {
+  background-image: url("poster.jpg");
+  height: 297px;
+  display: flex;
+  background-size:cover;
+  width: 100%;
+
+}
+.item-slogan {
+  flex: 0 1 100%;
+  background-color: rgba(255,255,255,0.8);
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  top: 250px;
+  font-family: 'Open sans', sans-serif;
+  padding-left: 15px;
+  height: 71px;
+}
+
+@media only screen and (min-width: 992px) {
+  .contenedor-menu {
+    background-color: #1b9688;
+  }
+  .item-titulo {
+    flex: 0 1 50%;
+    text-align: left;
+    margin-left: 45px;
+  }
+  header nav {
+    width: auto;
+    margin-right: 45px;
+
+  }
+
+  .item-cuadro {
+    height: 60px;
+    line-height: 60px;
+  }
+  .item-slogan {
+    flex: 0 1 30%;
+    text-align: center;
+    top: 350px;
+  }
+  .contenedor-slogan {
+    height: 421px;
+  }
+}
+
+/*codigo marta*/
+
+.cuerpo--ppal {
+  text-align: center;
+}
+
+.cuerpo--equipo {
+  padding-bottom: 30px;
+}
+
+.cuerpo--fortdeb {
+  background-color: #f1f1f1;
+  padding-bottom: 45px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.cuerpo--item {
+}
+
+.titulo--fortdeb {
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 22px;
+  padding-top: 30px;
+}
+
+.titulo--equipo {
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.texto--main {
+  color: #54585A;
+  font-family: 'Open Sans', sans-serif;
+  16px;
+  margin: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.triangulo {
+  margin: auto;
+  height: 0px;
+  width: 0px;
+  padding: 0px;
+  background-color: #F1F1F1;
+  border-radius: 0px;
+  top: -200px;
+  transform: rotate(0deg) skew(0deg);
+  -webkit-transform: rotate(0deg) skew(0deg);
+  border-top: 20px solid #FFFFFF;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 0px transparent;
+}
+/*codigo marta*/
+
+/*codigo Sofi*/
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.flex.leftext {
+  margin-left: 90px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  align-items: center;
+}
+.flex.rightext {
+  margin-right: 90px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  align-items: center;
+}
+.titlewho {
+  color: #099D8D;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  line: 45px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.titlename {
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line: 45px;
+}
+.textwho {
+  color: #54585A;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line: 24px;
+}
+.profilephoto {
+  box-sizing: border-box;
+  border-style: solid;
+  margin-left: 45px;
+  margin-right: 45px;
+  border-color: #B8B8B9;
+  border-radius: 15px;
+  border-width: 3px;
+}
+.imagen1 {
+  float:left;
+  margin-right;
+}
+.imagen2 {
+   float:right;
+   margin-left;
+}
+main {
+  margin-top: 45px;
+	margin-bottom: 60px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.textmargin1 {
+  margin-bottom: 15px;
+  margin-left: 90px;
+  margin-right: 45px;
+  text-align: right;
+}
+.textmargin1 .titlename {
+  padding-top: 45px;
+}
+
+.textmargin2 {
+  margin-bottom: 15px;
+  margin-left: 45px;
+  margin-right: 90px;
+}
+.colorppal {
+  filter: hue-rotate(9deg);
+  filter: saturate(157%);
+  filter: brightness(141%);
+}
+.box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.box li {
+  display: inline;
+}
+.box li + li::before {
+  content: "·";
+  margin: 0 5px;
+}
+.fab {
+  color: #14aabf
+}
+.fas {
+  color: #14aabf
+}
+.organize {
+}
+.iconsright {
+  text-align: right;
+}
+@media all and (max-width:736px) {
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 45px;
+      }
+    ul {
+      margin-bottom: 45px;
+      margin-top: 15px;
+      justify-content: center;
+      text-align: center;
+    }
+    .profilephoto {
+      box-sizing: border-box;
+      border-style: solid;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      height: 180px;
+      width: 180px;
+      border-color: #B8B8B9;
+      border-radius: 15px;
+      border-width: 3px;
+      justify-content: center;
+      align-content: center;
+    }
+    .textmargin1 {
+      justify-content: center;
+      text-align: center;
+      margin-top: 15px;
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .textmargin2 {
+      justify-content: center;
+      text-align: center;
+      margin-top: 15px;
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .flex.leftext {
+      margin-top: 15px;
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .flex.rightext {
+      margin-top: 15px;
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    }
+/*codigo Sofi*/
+
+/*codigo Alba*/
+
+/*body {
+  margin: 0;
+  100hv;
+}
+.page {
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/*header {
+  background: blue;
+}
+main {
+  background: yellow;
+  flex: 1;
+} */
+footer {
+  display: flex;
+  background: white;
+  border: 1px solid lightgrey;
+  position: fixed bottom;
+  justify-content: center;
+  margin-top: 45px;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.item1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line: 20px;
+  color: #B8B8B9;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.item2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #54585A;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line: 30px;
+}
+.lista{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.enlaces {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #54585A;
+}
+aside {
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+/*codigo Alba*/
