@@ -1,3 +1,9 @@
+
+html {
+margin: 0px;
+}
+
+
 .contenedor-menu {
   font-family: 'Rubik', sans-serif;
   display: flex;
@@ -98,6 +104,7 @@ header nav {
 
 .cuerpo--ppal {
   text-align: center;
+  margin: 0;
 }
 
 .cuerpo--equipo {
@@ -133,10 +140,12 @@ header nav {
 .texto--main {
   color: #54585A;
   font-family: 'Open Sans', sans-serif;
-  16px;
-  margin: 0px;
+  margin: 0 0 16px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.texto--main:last-child {
+margin-bottom: 0;
 }
 
 .triangulo {
@@ -194,6 +203,7 @@ header nav {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line: 24px;
+  margin-bottom: 45px;
 }
 .profilephoto {
   box-sizing: border-box;
@@ -212,11 +222,11 @@ header nav {
    float:right;
    margin-left;
 }
-main {
+.box  {
   margin-top: 45px;
-	margin-bottom: 60px;
   margin-left: 45px;
   margin-right: 45px;
+  margin-bottom: 60px;
 }
 .textmargin1 {
   margin-bottom: 15px;
@@ -225,13 +235,14 @@ main {
   text-align: right;
 }
 .textmargin1 .titlename {
-  padding-top: 45px;
+
 }
 
 .textmargin2 {
   margin-bottom: 15px;
   margin-left: 45px;
   margin-right: 90px;
+  text-align: left;
 }
 .colorppal {
   filter: hue-rotate(9deg);
@@ -257,6 +268,7 @@ main {
   color: #14aabf
 }
 .organize {
+  text-align: left;
 }
 .iconsright {
   text-align: right;
@@ -322,28 +334,9 @@ main {
 
 /*codigo Alba*/
 
-/*body {
-  margin: 0;
-  100hv;
-}
-.page {
-  background: pink;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-/*header {
-  background: blue;
-}
-main {
-  background: yellow;
-  flex: 1;
-} */
 footer {
-  display: flex;
   background: white;
   border: 1px solid lightgrey;
-  position: fixed bottom;
   justify-content: center;
   margin-top: 45px;
   flex-direction: column;
