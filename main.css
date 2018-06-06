@@ -71,6 +71,9 @@ header nav {
   height: 71px;
 }
 
+
+
+
 @media only screen and (min-width: 992px) {
   .contenedor-menu {
     background-color: #1b9688;
@@ -375,3 +378,75 @@ aside {
 }
 
 /*codigo Alba*/
+
+/*codigo contacto*/
+
+.i-cabecera{
+  height: 300px;
+  width: 100%;
+  background-image: url("imagencontact.jpg");
+  background-size: cover;
+}
+.imagen {
+  background-image:
+  height: 300px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contact-tittle {
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: 'Rubik', sans-serif;
+  color: #099D8D;
+  font-size: 24px;
+}
+.texto {
+  align-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #54585A;
+  font-size: 16px;
+  line: 24px;
+}
+.contact-box {
+justify-content: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+color: #54585A;
+line: 24px;
+}
+
+/*codigo contacto*/
+
+/*codigo formulario*/
+ .formulario {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #54585A;
+}
+
+.formulario input {
+  font-size: 16px;
+
+}
+
+.formulario textarea {
+  font-size: 16px;
+}
+
+.pepe {
+  background: #099D8D;
+  color: #ffffff;
+  width: 100vh;
+}
+
+
+
+
+/*codigo formulario*/
