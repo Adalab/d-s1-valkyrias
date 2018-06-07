@@ -481,9 +481,11 @@ text-align: left;
 }
 .an {
 text-align: left;
+font-size: 14px;
 }
 .formulario textarea {
-  font-size: 16px;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
 width: 100%;
 box-sizing: border-box;
 margin-top: 5px;
