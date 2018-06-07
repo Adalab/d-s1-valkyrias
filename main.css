@@ -2,6 +2,9 @@
 html {
 margin: 0px;
 }
+body {
+margin: 0px;
+}
 
 
 .contenedor-menu {
@@ -340,7 +343,7 @@ margin-bottom: 0;
 
 footer {
   background: white;
-  border: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
   justify-content: center;
   margin-top: 45px;
   text-align: center;
@@ -379,7 +382,7 @@ aside {
 
 footer {
 
-  border: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
   margin-top: 45px;
   padding-right: 45px;
   padding-left: 45px;
@@ -460,6 +463,7 @@ width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #54585A;
+  margin: 0px;
 }
 
 .formulario input {
@@ -467,24 +471,31 @@ font-size: 16px;
 width: 100%;
 margin-top: 5px;
 margin-bottom: 15px;
+box-sizing: border-box;
+
 }
 .q {
 margin-left: 15px;
 margin-right: 15px;
+text-align: left;
 }
 .an {
-
+text-align: left;
 }
 .formulario textarea {
   font-size: 16px;
 width: 100%;
+box-sizing: border-box;
+margin-top: 5px;
+margin-bottom: 30px;
 }
 
 .pepe {
 background: #099D8D;
 color: #ffffff;
-width: 100%;
 text-transform: uppercase;
+height: 45px;
+padding: 0px;
 }
 
 
