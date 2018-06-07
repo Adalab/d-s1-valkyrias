@@ -226,7 +226,7 @@ margin-bottom: 0;
    margin-left;
 }
 .box  {
-  margin-top: 45px;
+  margin-top: 45px;column
   margin-left: 45px;
   margin-right: 45px;
   margin-bottom: 60px;
@@ -285,7 +285,7 @@ margin-bottom: 0;
       margin-top: 30px;
       margin-bottom: 45px;
       }
-    ul {
+    ul {query
       margin-bottom: 45px;
       margin-top: 15px;
       justify-content: center;
@@ -342,9 +342,8 @@ footer {
   border: 1px solid lightgrey;
   justify-content: center;
   margin-top: 45px;
-  flex-direction: column;
   text-align: center;
-  flex-wrap: wrap;
+
 }
 .item1 {
   font-family: 'Open Sans', sans-serif;
@@ -375,6 +374,50 @@ footer {
 aside {
   margin-top: 30px;
   margin-bottom: 45px;
+}
+@media only screen and (min-width: 768px) {
+
+footer {
+  background: white;
+  border: 1px solid lightgrey;
+  margin-top: 45px;
+}
+.supercaja {
+position: relative;
+}
+
+.item1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line: 20px;
+    color: #B8B8B9;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.item2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #54585A;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line: 30px;
+  margin-top: 25px;
+  position: absolute;
+  top:0;
+  right: 0
+
+}
+.lista{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+aside {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: left;
+}
 }
 
 /*codigo Alba*/
