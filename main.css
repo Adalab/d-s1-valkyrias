@@ -285,12 +285,21 @@ margin-bottom: 0;
       justify-content: center;
       margin-top: 30px;
       margin-bottom: 45px;
+align-items: center;
       }
     ul {query
       margin-bottom: 45px;
       margin-top: 15px;
       justify-content: center;
       text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .imagen1 {
+      float:center;
+    }
+    .imagen2 {
+       float:center;
     }
     .profilephoto {
       box-sizing: border-box;
@@ -302,18 +311,24 @@ margin-bottom: 0;
       border-color: #B8B8B9;
       border-radius: 15px;
       border-width: 3px;
-      justify-content: center;
-      align-content: center;
     }
     .textmargin1 {
       justify-content: center;
       text-align: center;
       margin-top: 15px;
-      margin-top: 15px;margin-left: 0px;
-  margin-right: 0px;
+      margin-top: 15px;
+      margin-left: 0px;
+      margin-right: 0px;
       margin-left: 15px;
       margin-right: 15px;
+      float: center;
     }
+    .iconsright {
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+      justify-content: center;
+}
     .textmargin2 {
       justify-content: center;
       text-align: center;
@@ -321,18 +336,21 @@ margin-bottom: 0;
       margin-top: 15px;
       margin-left: 15px;
       margin-right: 15px;
+      float: center;
     }
     .flex.leftext {
       margin-top: 15px;
       margin-top: 15px;
       margin-left: 15px;
       margin-right: 15px;
+text-align: center;
     }
     .flex.rightext {
       margin-top: 15px;
       margin-top: 15px;
       margin-left: 15px;
       margin-right: 15px;
+text-align: center;
     }
     }
 /*codigo Sofi*/
@@ -527,7 +545,48 @@ height: 45px;
 padding: 0px;
 border: 0;
 }
+@media only screen and (min-width: 768px) {
 
+.formulario {
+width: 442px;
+display: inline-block;
+align-items: center;
+}
+.texto {
+width: 442px;
+align-self: center;
+}
+.chachi {
+width: 206px;
+
+}
+.pepe {
+position: relative;
+left: 206px;
+}
+@media only screen and (min-width: 1200px){
+
+.q2{
+display: inline-flex;
+justify-content: space-between;
+}
+.y{
+width: 395px;
+margin-right: 44px;
+}
+.z {
+width: 162px;
+}
+.formulario {
+width: 601px;
+display: inline-block;
+align-items: center;
+}
+.texto {
+width: 601px;
+align-self: center;
+}
+}
 
 
 
