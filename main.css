@@ -203,9 +203,7 @@ margin-bottom: 0;
 @media all and (min-width: 1200px){
   .cuerpo--equipo {
     width: 601px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    margin: auto;
   }
 }
 
