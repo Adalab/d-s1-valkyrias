@@ -14,8 +14,10 @@ margin: 0px;
   justify-content: space-between;
   width: 100%;
   background-color: #14d9c4;
+  opacity: 0.9;
   padding: 0px;
   margin: 0px;
+  position: fixed;
 }
 .item-titulo {
   flex: 0 1 100%;
@@ -54,7 +56,7 @@ header nav {
 }
 .contenedor-slogan {
   background-image: url("poster.jpg");
-  height: 297px;
+  height: 421px;
   display: flex;
   background-size:cover;
   width: 100%;
@@ -66,7 +68,7 @@ header nav {
   margin-left: 15px;
   margin-right: 15px;
   position: relative;
-  top: 226px;
+  top: 350px;
   font-family: 'Open sans', sans-serif;
   padding-left: 15px;
   height: 71px;
@@ -521,11 +523,17 @@ aside {
 
 /*codigo contacto*/
 
+.contenedor-menu {
+  position: fixed;
+  opacity: 0.9;
+}
+
 .i-cabecera{
   height: 300px;
   width: 100%;
   background-image: url("imagencontact.jpg");
   background-size: cover;
+
 }
 @media only screen and (min-width: 992px) {
   .i-cabecera{
