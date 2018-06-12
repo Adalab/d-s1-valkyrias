@@ -304,14 +304,12 @@ margin-bottom: 0;
 }
 .imagen1 {
   float:left;
-  margin-right;
 }
 .imagen2 {
    float:right;
-   margin-left;
 }
 .box  {
-  margin-top: 45px;column
+  margin-top: 45px;
   margin-left: 45px;
   margin-right: 45px;
   margin-bottom: 60px;
@@ -369,9 +367,9 @@ margin-bottom: 0;
       justify-content: center;
       margin-top: 30px;
       margin-bottom: 45px;
-align-items: center;
+      align-items: center;
       }
-    ul {query
+    ul {
       margin-bottom: 45px;
       margin-top: 15px;
       justify-content: center;
@@ -544,7 +542,6 @@ aside {
 }
 
 .imagen {
-  background-image:
   height: 300px;
   margin-left: 0;
   margin-right: 0;
@@ -579,6 +576,7 @@ color: #54585A;
 line: 24px;
 width: 100%;
 }
+
 .texto-form {
 margin-bottom: 60px;
 }
@@ -648,44 +646,47 @@ border: 0;
 }
 @media only screen and (min-width: 768px) {
 
-.formulario {
-width: 442px;
-display: inline-block;
-align-items: center;
-}
-.texto {
-width: 442px;
-align-self: center;
-}
-.chachi {
-width: 206px;
-
-}
-.pepe {
-position: relative;
-left: 206px;
+  .formulario {
+  width: 442px;
+  display: inline-block;
+  align-items: center;
+  }
+  .texto {
+  width: 442px;
+  align-self: center;
+  }
+  .chachi {
+  width: 206px;
+  }
+  .pepe {
+  position: relative;
+  left: 206px;
+  }
 }
 @media only screen and (min-width: 1200px){
 
-.q2{
-display: inline-flex;
-justify-content: space-between;
+  .q2 {
+  display: inline-flex;
+  justify-content: space-between;
+  }
+
+  .y {
+  width: 395px;
+  margin-right: 44px;
+  }
+
+  .z {
+  width: 162px;
+  }
+
+  .formulario {
+  width: 601px;
+  display: inline-block;
+  align-items: center;
+  }
+
+  .texto {
+  width: 601px;
+  align-self: center;
+  }
 }
-.y{
-width: 395px;
-margin-right: 44px;
-}
-.z {
-width: 162px;
-}
-.formulario {
-width: 601px;
-display: inline-block;
-align-items: center;
-}
-.texto {
-width: 601px;
-align-self: center;
-}
-}
-/*codigo formulario*/
