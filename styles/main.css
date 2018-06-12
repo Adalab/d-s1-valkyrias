@@ -56,7 +56,7 @@ header nav {
   color: white;
 }
 .contenedor-slogan {
-  background-image: url("poster.jpg");
+  background-image: url("../images/poster.jpg");
   height: 421px;
   display: flex;
   background-size:cover;
@@ -532,7 +532,7 @@ aside {
 .i-cabecera{
   height: 300px;
   width: 100%;
-  background-image: url("imagencontact.jpg");
+  background-image: url("../images/imagencontact.jpg");
   background-size: cover;
 
 }
