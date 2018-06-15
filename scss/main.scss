@@ -254,17 +254,25 @@ margin-bottom: 0;
 /*codigo marta*/
 
 /*codigo Sofi*/
+.sofi{
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .memuero{
   display: grid;
-  grid-template-columns: 278px 1fr;
+  grid-template-columns: 1fr 278px;
   grid-template-rows: 278px;
   grid-template-areas: "sigomuriendo" "mori";
-  grid-gap: 45px;
+  grid-gap: 45px 60px;
   margin-bottom: 60px;
   margin-top: 45px;
 }
 .sigomuriendo{
   width: 439px;
+  text-align: right;
 }
 .mori{
   box-sizing: border-box;
@@ -295,7 +303,7 @@ margin-bottom: 0;
   grid-template-columns: 1fr  278px;
   grid-template-rows: 278px;
   grid-template-areas: "aunquenrealidad" "mevienebien";
-  grid-gap: 45px;
+  grid-gap: 45px 60px;
   margin-bottom: 60px;
   margin-top: 45px;
 }
@@ -312,11 +320,13 @@ margin-bottom: 0;
 }
 .mevienebien{
   width: 439px;
+  text-align: left;
 }
 .sigomuriendo ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: right;
 }
 .mori{
   width: 278px;
@@ -347,7 +357,7 @@ margin-bottom: 0;
 .fas {
   color: #14aabf;
 }
-    
+
 /*codigo Sofi*/
 
 /*codigo Alba*/

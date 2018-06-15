@@ -163,18 +163,36 @@ header nav {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 0px transparent;
-}/*codigo marta*//*codigo Sofi*/.memuero {
+}/*codigo marta*//*codigo Sofi*/.sofi {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.memuero {
   display: grid;
-  grid-template-columns: 278px 1fr;
+  grid-template-columns: 1fr 278px;
   grid-template-rows: 278px;
   grid-template-areas: "sigomuriendo" "mori";
-  grid-gap: 45px;
+  grid-gap: 45px 60px;
   margin-bottom: 60px;
   margin-top: 45px;
 }
 
 .sigomuriendo {
   width: 439px;
+  text-align: right;
 }
 
 .mori {
@@ -210,7 +228,7 @@ header nav {
   grid-template-columns: 1fr  278px;
   grid-template-rows: 278px;
   grid-template-areas: "aunquenrealidad" "mevienebien";
-  grid-gap: 45px;
+  grid-gap: 45px 60px;
   margin-bottom: 60px;
   margin-top: 45px;
 }
@@ -230,12 +248,14 @@ header nav {
 
 .mevienebien {
   width: 439px;
+  text-align: left;
 }
 
 .sigomuriendo ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: right;
 }
 
 .mori {
