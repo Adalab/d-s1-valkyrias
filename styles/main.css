@@ -163,44 +163,31 @@ header nav {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 0px transparent;
-}/*codigo marta*//*codigo Sofi*/.flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.flex.leftext {
-  margin-left: 90px;
+}/*codigo marta*//*codigo Sofi*/.memuero {
+  display: grid;
+  grid-template-columns: 278px 1fr;
+  grid-template-rows: 278px;
+  grid-template-areas: "sigomuriendo" "mori";
+  grid-gap: 45px;
   margin-bottom: 60px;
-  margin-top: 60px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.flex.rightext {
-  margin-right: 90px;
-  margin-bottom: 60px;
-  margin-top: 60px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.titlewho {
-  color: #099D8D;
-  text-align: center;
-  font-family: 'Rubik', sans-serif;
-  font-size: 24px;
-  line: 45px;
   margin-top: 45px;
-  margin-bottom: 45px;
+}
+
+.sigomuriendo {
+  width: 439px;
+}
+
+.mori {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-style: solid;
+  margin-left: 45px;
+  margin-right: 45px;
+  border-color: #B8B8B9;
+  border-radius: 15px;
+  border-width: 3px;
+  width: 278px;
+  height: 278px;
 }
 
 .titlename {
@@ -218,7 +205,17 @@ header nav {
   margin-bottom: 45px;
 }
 
-.profilephoto {
+.odiorehacercodigo {
+  display: grid;
+  grid-template-columns: 1fr  278px;
+  grid-template-rows: 278px;
+  grid-template-areas: "aunquenrealidad" "mevienebien";
+  grid-gap: 45px;
+  margin-bottom: 60px;
+  margin-top: 45px;
+}
+
+.aunquenrealidad {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-style: solid;
@@ -227,57 +224,45 @@ header nav {
   border-color: #B8B8B9;
   border-radius: 15px;
   border-width: 3px;
+  width: 278px;
+  height: 278px;
 }
 
-.imagen1 {
-  float: left;
+.mevienebien {
+  width: 439px;
 }
 
-.imagen2 {
-  float: right;
-}
-
-.box {
-  margin-top: 45px;
-  margin-left: 45px;
-  margin-right: 45px;
-  margin-bottom: 60px;
-}
-
-.textmargin1 {
-  margin-bottom: 15px;
-  margin-left: 90px;
-  margin-right: 45px;
-  text-align: right;
-}
-
-.textmargin2 {
-  margin-bottom: 15px;
-  margin-left: 45px;
-  margin-right: 90px;
-  text-align: left;
-}
-
-.colorppal {
-  -webkit-filter: hue-rotate(9deg);
-  filter: hue-rotate(9deg);
-  -webkit-filter: saturate(157%);
-  filter: saturate(157%);
-  -webkit-filter: brightness(141%);
-  filter: brightness(141%);
-}
-
-.box ul {
+.sigomuriendo ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.box li {
+.mori {
+  width: 278px;
+  height: 278px;
+}
+
+.mevienebien ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sigomuriendo li {
   display: inline;
 }
 
-.box li + li::before {
+.mevienebien li {
+  display: inline;
+}
+
+.sigomuriendo li + li::before {
+  content: "·";
+  margin: 0 5px;
+}
+
+.mevienebien li + li::before {
   content: "·";
   margin: 0 5px;
 }
@@ -288,14 +273,6 @@ header nav {
 
 .fas {
   color: #14aabf;
-}
-
-.organize {
-  text-align: left;
-}
-
-.iconsright {
-  text-align: right;
 }/*codigo Sofi*//*codigo Alba*/footer {
   background: white;
   border-top: 1px solid lightgrey;
@@ -711,108 +688,6 @@ aside {
     width: 601px;
     -ms-flex-item-align: center;
     align-self: center;
-  }
-}
-
-@media all and (max-width: 736px) {
-  .box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 45px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  ul {
-    margin-bottom: 45px;
-    margin-top: 15px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .imagen1 {
-    float: center;
-  }
-
-  .imagen2 {
-    float: center;
-  }
-
-  .profilephoto {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-style: solid;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    height: 180px;
-    width: 180px;
-    border-color: #B8B8B9;
-    border-radius: 15px;
-    border-width: 3px;
-  }
-
-  .textmargin1 {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 15px;
-    margin-top: 15px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-left: 15px;
-    margin-right: 15px;
-    float: center;
-  }
-
-  .iconsright {
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  .textmargin2 {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 15px;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    float: center;
-  }
-
-  .flex.leftext {
-    margin-top: 15px;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-align: center;
-  }
-
-  .flex.rightext {
-    margin-top: 15px;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    text-align: center;
   }
 }
 
