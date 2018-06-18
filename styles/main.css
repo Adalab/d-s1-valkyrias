@@ -269,7 +269,152 @@ body {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 0px transparent;
-}/*codigo marta*//*codigo formulario*/.formulario {
+}/*codigo marta*//*codigo Sofi*/.tituloquien {
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.tituloquien h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.quienes {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr  278px;
+  grid-template-rows: 278px;
+  grid-template-areas: "sigomuriendo" "mori";
+  grid-gap: 45px 60px;
+  margin-top: 45px;
+}
+
+.gridtext1 {
+  width: 439px;
+  text-align: right;
+}
+
+.gridphoto1 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #B8B8B9;
+  border-radius: 15px;
+  border-width: 3px;
+  width: 278px;
+  height: 278px;
+}
+
+.titlename {
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line: 45px;
+}
+
+.textwho {
+  color: #54585A;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line: 24px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 278px  1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "aunquenrealidad" "mevienebien";
+  grid-gap: 45px 60px;
+  margin-top: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.gridphoto2 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #B8B8B9;
+  border-radius: 15px;
+  border-width: 3px;
+  width: 278px;
+  height: 278px;
+}
+
+.gridtext2 {
+  width: 439px;
+  text-align: left;
+}
+
+.gridtext1 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.gridphoto1 {
+  width: 278px;
+  height: 278px;
+}
+
+.gridtext2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gridtext1 li {
+  display: inline;
+}
+
+.gridtext2 li {
+  display: inline;
+}
+
+.gridtext1 li + li::before {
+  content: "·";
+  margin: 0 5px;
+}
+
+.gridtext2 li + li::before {
+  content: "·";
+  margin: 0 5px;
+}
+
+.fab {
+  color: #14aabf;
+}
+
+.fas {
+  color: #14aabf;
+}
+
+.grid1 .titlename {
+  margin-top: 0;
+}
+
+.grid2 .titlename {
+  margin-top: 0;
+}/*codigo Sofi*//*codigo formulario*/.formulario {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #54585a;
@@ -333,152 +478,9 @@ body {
   height: 45px;
   padding: 0px;
   border: 0;
-}/*codigo Sofi*/.tituloquien {
-  color: #099D8D;
-  font-family: 'Rubik', sans-serif;
-  font-size: 24px;
-  margin-bottom: 0;
 }
 
-.tituloquien h2 {
-  margin: 0;
-  font-size: 24px;
-}
-
-.sofi {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.memuero {
-  display: grid;
-  grid-template-columns: 1fr  278px;
-  grid-template-rows: 278px;
-  grid-template-areas: "sigomuriendo" "mori";
-  grid-gap: 45px 60px;
-  margin-top: 45px;
-}
-
-.sigomuriendo {
-  width: 439px;
-  text-align: right;
-}
-
-.mori {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  border-style: solid;
-  border-color: #B8B8B9;
-  border-radius: 15px;
-  border-width: 3px;
-  width: 278px;
-  height: 278px;
-}
-
-.titlename {
-  color: #000000;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  line: 45px;
-}
-
-.textwho {
-  color: #54585A;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line: 24px;
-}
-
-.odiorehacercodigo {
-  display: grid;
-  grid-template-columns: 278px  1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "aunquenrealidad" "mevienebien";
-  grid-gap: 45px 60px;
-  margin-top: 45px;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.aunquenrealidad {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  border-style: solid;
-  border-color: #B8B8B9;
-  border-radius: 15px;
-  border-width: 3px;
-  width: 278px;
-  height: 278px;
-}
-
-.mevienebien {
-  width: 439px;
-  text-align: left;
-}
-
-.sigomuriendo ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: right;
-}
-
-.mori {
-  width: 278px;
-  height: 278px;
-}
-
-.mevienebien ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.sigomuriendo li {
-  display: inline;
-}
-
-.mevienebien li {
-  display: inline;
-}
-
-.sigomuriendo li + li::before {
-  content: "·";
-  margin: 0 5px;
-}
-
-.mevienebien li + li::before {
-  content: "·";
-  margin: 0 5px;
-}
-
-.fab {
-  color: #14aabf;
-}
-
-.fas {
-  color: #14aabf;
-}
-
-.memuero .titlename {
-  margin-top: 0;
-}
-
-.odiorehacercodigo .titlename {
-  margin-top: 0;
-}/*codigo Sofi*/@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   footer {
     border-top: 1px solid lightgrey;
     margin-top: 45px;
@@ -735,7 +737,7 @@ body {
     font-size: 24px;
   }
 
-  .sofi {
+  .quienes {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -752,7 +754,7 @@ body {
     align-items: center;
   }
 
-  .memuero {
+  .grid1 {
     display: grid;
     grid-template-columns: 1fr  205px;
     grid-template-rows: 205px;
@@ -761,13 +763,13 @@ body {
     margin-bottom: 0;
   }
 
-  .sigomuriendo {
+  .gridtext1 {
     width: 100vh;
     text-align: right;
     margin: 0;
   }
 
-  .mori {
+  .gridphoto1 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-style: solid;
@@ -793,7 +795,7 @@ body {
     line: 24px;
   }
 
-  .odiorehacercodigo {
+  .grid2 {
     display: grid;
     grid-template-columns: 205px  1fr;
     grid-template-rows: 1fr;
@@ -804,7 +806,7 @@ body {
     margin-bottom: 0;
   }
 
-  .aunquenrealidad {
+  .gridphoto2 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-style: solid;
@@ -816,44 +818,44 @@ body {
     margin-bottom: 0;
   }
 
-  .mevienebien {
+  .gridtext2 {
     width: 100vh;
     text-align: left;
     margin-bottom: 0;
   }
 
-  .sigomuriendo ul {
+  .gridtext1 ul {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: right;
   }
 
-  .mori {
+  .gridphoto1 {
     width: 205px;
     height: 205px;
   }
 
-  .mevienebien ul {
+  .gridtext2 ul {
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
-  .sigomuriendo li {
+  .gridtext1 li {
     display: inline;
   }
 
-  .mevienebien li {
+  .gridtext2 li {
     display: inline;
   }
 
-  .sigomuriendo li + li::before {
+  .gridtext1 li + li::before {
     content: "·";
     margin: 0 5px;
   }
 
-  .mevienebien li + li::before {
+  .gridtext2 li + li::before {
     content: "·";
     margin: 0 5px;
   }
@@ -868,7 +870,7 @@ body {
 }
 
 @media all and (max-width: 768px) {
-  .memuero {
+  .grid1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -885,18 +887,18 @@ body {
     margin-bottom: 0;
   }
 
-  .mori {
+  .gridphoto1 {
     width: 180px;
     height: 180px;
   }
 
-  .sigomuriendo {
+  .gridtext1 {
     display: block;
     width: 275px;
     text-align: center;
   }
 
-  .odiorehacercodigo {
+  .grid2 {
     display: block;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -904,18 +906,18 @@ body {
     margin-bottom: 0;
   }
 
-  .aunquenrealidad {
+  .gridphoto2 {
     width: 180px;
     height: 180px;
   }
 
-  .mevienebien {
+  .gridtext2 {
     display: block;
     width: 100%;
     text-align: center;
   }
 
-  .sigomuriendo ul {
+  .gridtext1 ul {
     margin: 0;
     padding: 0;
     list-style: none;
