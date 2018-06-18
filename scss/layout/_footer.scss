@@ -1,0 +1,141 @@
+footer {
+  background: white;
+  border-top: 1px solid lightgrey;
+  justify-content: center;
+  margin-top: 45px;
+  text-align: center;
+}
+.item1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line: 20px;
+  color: $grisclaro;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.item2 {
+  font-family: 'Open Sans', sans-serif;
+  color: $colorparrafos;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line: 30px;
+}
+.lista{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.enlaces {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $colorparrafos;
+}
+aside {
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+@media only screen and (min-width: 768px) {
+
+footer {
+
+  border-top: 1px solid lightgrey;
+  margin-top: 45px;
+  padding-right: 45px;
+  padding-left: 45px;
+}
+.supercaja {
+position: relative;
+}
+
+.item1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.item2 {
+  line-height: 30px;
+  margin-top: 0;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+.texto {
+  align-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color: $colorparrafos;
+  font-size: 16px;
+  margin: 0 25px;
+}
+.contact-box {
+display: block;
+justify-content: center;
+}
+aside {
+  margin-top: 15px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+}
+/*codigo Alba*/
+
+/*codigo contacto*/
+
+.contenedor-menu {
+  position: fixed;
+  opacity: 0.9;
+}
+
+.i-cabecera{
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/imagencontact.jpg");
+  background-size: cover;
+
+}
+@media only screen and (min-width: 992px) {
+  .i-cabecera{
+    height: 400px;
+  }
+
+}
+
+.imagen {
+  height: 300px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contact-tittle {
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: 'Rubik', sans-serif;
+  color: #099D8D;
+  font-size: 24px;
+}
+.texto {
+  align-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color: $colorparrafos;
+  font-size: 16px;
+  margin: 0 25px;
+}
+.contact-box {
+display: block;
+justify-content: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+color: $colorparrafos;
+line: 24px;
+width: 100%;
+}
+
+.texto-form {
+margin-bottom: 60px;
+}
