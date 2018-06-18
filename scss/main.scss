@@ -258,7 +258,11 @@ margin-bottom: 0;
   color: #099D8D;
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
-  margin: 0 auto;
+  margin-bottom: 0;
+}
+.tituloquien h2 {
+  margin: 0;
+  font-size: 24px;
 }
 .sofi{
   justify-content: center;
@@ -276,6 +280,7 @@ margin-bottom: 0;
   margin-bottom: 60px;
   margin-top: 45px;
 }
+
 .sigomuriendo{
   width: 439px;
   text-align: right;
@@ -303,13 +308,16 @@ margin-bottom: 0;
 }
 .odiorehacercodigo{
   display: grid;
-  grid-template-columns: 278px 1fr;
-  grid-template-rows: 278px;
+  grid-template-columns: 278px  1fr;
+  grid-template-rows: 1fr;
   grid-template-areas: "aunquenrealidad" "mevienebien";
   grid-gap: 45px 60px;
   margin-bottom: 60px;
   margin-top: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
+
 .aunquenrealidad{
   box-sizing: border-box;
   border-style: solid;
@@ -357,6 +365,48 @@ margin-bottom: 0;
 }
 .fas {
   color: #14aabf;
+}
+
+
+@media all and (max-width: 768px) {
+.memuero{
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+width: 365px;
+margin-left: 15px;
+margin-right: 15px;
+margin-bottom: 0;
+}
+.mori{
+width: 180px;
+height: 180px;
+}
+.sigomuriendo{
+  display:block;
+width: 365px;
+  text-align: center;
+}
+.odiorehacercodigo {
+display: block;
+align-items: center;
+margin-bottom: 0;
+}
+.aunquenrealidad {
+width: 180px;
+height: 180px;
+}
+.mevienebien {
+display:block;
+width: 100%;
+text-align: center;
+}
+.sigomuriendo ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
 }
 
 /*codigo Sofi*/

@@ -167,7 +167,12 @@ header nav {
   color: #099D8D;
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
-  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.tituloquien h2 {
+  margin: 0;
+  font-size: 24px;
 }
 
 .sofi {
@@ -229,12 +234,14 @@ header nav {
 
 .odiorehacercodigo {
   display: grid;
-  grid-template-columns: 278px 1fr;
-  grid-template-rows: 278px;
+  grid-template-columns: 278px  1fr;
+  grid-template-rows: 1fr;
   grid-template-areas: "aunquenrealidad" "mevienebien";
   grid-gap: 45px 60px;
   margin-bottom: 60px;
   margin-top: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .aunquenrealidad {
@@ -710,6 +717,62 @@ aside {
     width: 601px;
     -ms-flex-item-align: center;
     align-self: center;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .memuero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 365px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+
+  .mori {
+    width: 180px;
+    height: 180px;
+  }
+
+  .sigomuriendo {
+    display: block;
+    width: 365px;
+    text-align: center;
+  }
+
+  .odiorehacercodigo {
+    display: block;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .aunquenrealidad {
+    width: 180px;
+    height: 180px;
+  }
+
+  .mevienebien {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sigomuriendo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
   }
 }
 
