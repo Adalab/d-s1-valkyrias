@@ -414,7 +414,72 @@ body {
 
 .grid2 .titlename {
   margin-top: 0;
-}/*codigo Sofi*//*codigo formulario*/.formulario {
+}/*codigo Sofi*//*codigo contacto*/.contenedor-menu {
+  position: fixed;
+  opacity: 0.9;
+}
+
+.i-cabecera {
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/imagencontact.jpg");
+  background-size: cover;
+}
+
+.imagen {
+  height: 300px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-tittle {
+  -ms-flex-line-pack: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: 'Rubik', sans-serif;
+  color: #099D8D;
+  font-size: 24px;
+}
+
+.texto {
+  -ms-flex-line-pack: center;
+  align-content: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #54585a;
+  font-size: 16px;
+  margin: 0 25px;
+}
+
+.contact-box {
+  display: block;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #54585a;
+  line: 24px;
+  width: 100%;
+}
+
+.texto-form {
+  margin-bottom: 60px;
+}/*codigo formulario*/.formulario {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #54585a;
@@ -478,6 +543,10 @@ body {
   height: 45px;
   padding: 0px;
   border: 0;
+}
+
+body {
+  cursor: url(../cursor2.gif), url(cursor.cur), pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -680,6 +749,10 @@ body {
 
   .contenedor-slogan {
     height: 421px;
+  }
+
+  .i-cabecera {
+    height: 400px;
   }
 }
 

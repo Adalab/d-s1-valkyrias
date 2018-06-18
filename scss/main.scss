@@ -6,3 +6,7 @@
 @import 'layout/home';
 @import 'components/typograpy';
 @import 'pages/contact';
+
+body {
+cursor: url(../cursor2.gif), url(cursor.cur), pointer;
+}
