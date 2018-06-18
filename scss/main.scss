@@ -254,6 +254,12 @@ margin-bottom: 0;
 /*codigo marta*/
 
 /*codigo Sofi*/
+.tituloquien{
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  margin: 0 auto;
+}
 .sofi{
   justify-content: center;
   margin: 0 auto;
@@ -263,7 +269,7 @@ margin-bottom: 0;
 }
 .memuero{
   display: grid;
-  grid-template-columns: 1fr 278px;
+  grid-template-columns: 1fr  278px;
   grid-template-rows: 278px;
   grid-template-areas: "sigomuriendo" "mori";
   grid-gap: 45px 60px;
@@ -277,8 +283,6 @@ margin-bottom: 0;
 .mori{
   box-sizing: border-box;
   border-style: solid;
-  margin-left: 45px;
-  margin-right: 45px;
   border-color: #B8B8B9;
   border-radius: 15px;
   border-width: 3px;
@@ -296,11 +300,10 @@ margin-bottom: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line: 24px;
-  margin-bottom: 45px;
 }
 .odiorehacercodigo{
   display: grid;
-  grid-template-columns: 1fr  278px;
+  grid-template-columns: 278px 1fr;
   grid-template-rows: 278px;
   grid-template-areas: "aunquenrealidad" "mevienebien";
   grid-gap: 45px 60px;
@@ -310,8 +313,6 @@ margin-bottom: 0;
 .aunquenrealidad{
   box-sizing: border-box;
   border-style: solid;
-  margin-left: 45px;
-  margin-right: 45px;
   border-color: #B8B8B9;
   border-radius: 15px;
   border-width: 3px;
